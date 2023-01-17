@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.techreturners.exercise004.Exercise004Test
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 2, Time elapsed: 0 s <<< FAILURE! - in com.techreturners.exercise004.Exercise004Test
+checkGetDateTimeWhenDateIsSpecified  Time elapsed: 0 s  <<< ERROR!
+java.lang.UnsupportedOperationException: You can delete this statement and add your code here.
+	at com.techreturners.exercise004.Exercise004Test.checkGetDateTimeWhenDateIsSpecified(Exercise004Test.java:15)
+

@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.techreturners.exercise005.Exercise005Test
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 0, Errors: 1, Skipped: 8, Time elapsed: 0.014 s <<< FAILURE! - in com.techreturners.exercise005.Exercise005Test
+checkEmptySentenceIsNotAPangram  Time elapsed: 0.008 s  <<< ERROR!
+java.lang.UnsupportedOperationException: You can delete this statement and add your code here.
+	at com.techreturners.exercise005.Exercise005Test.checkEmptySentenceIsNotAPangram(Exercise005Test.java:21)
+

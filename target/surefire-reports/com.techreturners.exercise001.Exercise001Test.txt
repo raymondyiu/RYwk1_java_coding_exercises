@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: com.techreturners.exercise001.Exercise001Test
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.techreturners.exercise001.Exercise001Test
+checkInitials  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <F.B> but was: <>
+	at com.techreturners.exercise001.Exercise001Test.checkInitials(Exercise001Test.java:28)
+
+checkLinuxUsers  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <2> but was: <0>
+	at com.techreturners.exercise001.Exercise001Test.checkLinuxUsers(Exercise001Test.java:68)
+
+checkHello  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Hello> but was: <>
+	at com.techreturners.exercise001.Exercise001Test.checkHello(Exercise001Test.java:14)
+
+checkSentenceReverse  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <oof> but was: <>
+	at com.techreturners.exercise001.Exercise001Test.checkSentenceReverse(Exercise001Test.java:45)
+
+checkAddVat  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <120.0> but was: <0.0>
+	at com.techreturners.exercise001.Exercise001Test.checkAddVat(Exercise001Test.java:36)
+
+checkHelloAlreadyUppercase  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Hello> but was: <>
+	at com.techreturners.exercise001.Exercise001Test.checkHelloAlreadyUppercase(Exercise001Test.java:22)
+
