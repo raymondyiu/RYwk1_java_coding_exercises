@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.techreturners.exercise003.Exercise003Test" time="0" tests="4" errors="1" skipped="3" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.techreturners.exercise003.Exercise003Test" time="0" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-17.0.5.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/raymond/techReturners/week1-ex20230116/RYw1_java_coding_exercises/target/surefire/surefirebooter14640879617416137360.jar /Users/raymond/techReturners/week1-ex20230116/RYw1_java_coding_exercises/target/surefire 2023-01-17T10-10-41_687-jvmRun1 surefire4783370367213375230tmp surefire_04666683819728706770tmp"/>
+    <property name="sun.java.command" value="/Users/raymond/techReturners/week1-ex20230116/RYw1_java_coding_exercises/target/surefire/surefirebooter8182763332628609324.jar /Users/raymond/techReturners/week1-ex20230116/RYw1_java_coding_exercises/target/surefire 2023-01-17T11-24-57_365-jvmRun1 surefire18378771107231843975tmp surefire_03453136555624789159tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/raymond/techReturners/week1-ex20230116/RYw1_java_coding_exercises/target/test-classes:/Users/raymond/techReturners/week1-ex20230116/RYw1_java_coding_exercises/target/classes:/Users/raymond/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.0/junit-jupiter-engine-5.9.0.jar:/Users/raymond/.m2/repository/org/junit/platform/junit-platform-engine/1.9.0/junit-platform-engine-1.9.0.jar:/Users/raymond/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/raymond/.m2/repository/org/junit/platform/junit-platform-commons/1.9.0/junit-platform-commons-1.9.0.jar:/Users/raymond/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.0/junit-jupiter-api-5.9.0.jar:/Users/raymond/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:"/>
@@ -28,7 +28,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/Users/raymond/techReturners/week1-ex20230116/RYw1_java_coding_exercises/target/surefire/surefirebooter14640879617416137360.jar"/>
+    <property name="surefire.real.class.path" value="/Users/raymond/techReturners/week1-ex20230116/RYw1_java_coding_exercises/target/surefire/surefirebooter8182763332628609324.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="17.0.5+9-LTS-191"/>
@@ -54,18 +54,8 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="checkGetIceCreamCodeForRaspberryRipple" classname="com.techreturners.exercise003.Exercise003Test" time="0">
-    <skipped message="You can remove this @Disabled annotation to run the test"/>
-  </testcase>
-  <testcase name="checkGetIceCreamCodeForMangoSorbet" classname="com.techreturners.exercise003.Exercise003Test" time="0">
-    <skipped message="You can remove this @Disabled annotation to run the test"/>
-  </testcase>
-  <testcase name="checkPickMultipleIceCreamFlavours" classname="com.techreturners.exercise003.Exercise003Test" time="0">
-    <skipped message="You can remove this @Disabled annotation to run the test"/>
-  </testcase>
-  <testcase name="checkGetIceCreamCodeForMintChocolateChip" classname="com.techreturners.exercise003.Exercise003Test" time="0">
-    <error message="You can delete this statement and add your code here." type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: You can delete this statement and add your code here.
-	at com.techreturners.exercise003.Exercise003Test.checkGetIceCreamCodeForMintChocolateChip(Exercise003Test.java:24)
-</error>
-  </testcase>
+  <testcase name="checkGetIceCreamCodeForRaspberryRipple" classname="com.techreturners.exercise003.Exercise003Test" time="0"/>
+  <testcase name="checkGetIceCreamCodeForMangoSorbet" classname="com.techreturners.exercise003.Exercise003Test" time="0"/>
+  <testcase name="checkPickMultipleIceCreamFlavours" classname="com.techreturners.exercise003.Exercise003Test" time="0"/>
+  <testcase name="checkGetIceCreamCodeForMintChocolateChip" classname="com.techreturners.exercise003.Exercise003Test" time="0"/>
 </testsuite>

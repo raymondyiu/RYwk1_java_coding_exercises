@@ -35,7 +35,6 @@ public class Exercise001 {
         for (int i = sentence.length() - 1; i >= 0; i--) {
             rev = rev + Character.toString(sentence.charAt(i));
         }
-        // System.out.println("raymond reverse : " + rev);
         return rev;
     }
 
@@ -47,7 +46,7 @@ public class Exercise001 {
                 count += 1;
             }
         }
-        // System.out.println("raymond countLinuxUsers : " + count);
+
         return count;
     }
 }
