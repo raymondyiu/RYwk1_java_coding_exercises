@@ -1,12 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.techreturners.exercise002.Exercise002Test
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.techreturners.exercise002.Exercise002Test
-checkIsFromManchester  Time elapsed: 0 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
-	at com.techreturners.exercise002.Exercise002Test.checkIsFromManchester(Exercise002Test.java:14)
-
-checkCanWatchFilm  Time elapsed: 0 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
-	at com.techreturners.exercise002.Exercise002Test.checkCanWatchFilm(Exercise002Test.java:26)
-
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.techreturners.exercise002.Exercise002Test

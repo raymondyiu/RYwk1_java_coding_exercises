@@ -3,7 +3,7 @@
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Users/raymond/techReturners/week1-ex20230116/ori_java_coding_exercises/target/test-classes:/Users/raymond/techReturners/week1-ex20230116/ori_java_coding_exercises/target/classes:/Users/raymond/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.0/junit-jupiter-engine-5.9.0.jar:/Users/raymond/.m2/repository/org/junit/platform/junit-platform-engine/1.9.0/junit-platform-engine-1.9.0.jar:/Users/raymond/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/raymond/.m2/repository/org/junit/platform/junit-platform-commons/1.9.0/junit-platform-commons-1.9.0.jar:/Users/raymond/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.0/junit-jupiter-api-5.9.0.jar:/Users/raymond/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:"/>
+    <property name="java.class.path" value="/Users/raymond/techReturners/week1-ex20230116/RYw1_java_coding_exercises/target/test-classes:/Users/raymond/techReturners/week1-ex20230116/RYw1_java_coding_exercises/target/classes:/Users/raymond/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.0/junit-jupiter-engine-5.9.0.jar:/Users/raymond/.m2/repository/org/junit/platform/junit-platform-engine/1.9.0/junit-platform-engine-1.9.0.jar:/Users/raymond/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/raymond/.m2/repository/org/junit/platform/junit-platform-commons/1.9.0/junit-platform-commons-1.9.0.jar:/Users/raymond/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.0/junit-jupiter-api-5.9.0.jar:/Users/raymond/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
@@ -12,10 +12,10 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-17.0.5.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/raymond/techReturners/week1-ex20230116/ori_java_coding_exercises/target/surefire/surefirebooter1928766385096632656.jar /Users/raymond/techReturners/week1-ex20230116/ori_java_coding_exercises/target/surefire 2023-01-17T00-15-30_023-jvmRun1 surefire1485871755334639203tmp surefire_08302622616831722567tmp"/>
+    <property name="sun.java.command" value="/Users/raymond/techReturners/week1-ex20230116/RYw1_java_coding_exercises/target/surefire/surefirebooter14640879617416137360.jar /Users/raymond/techReturners/week1-ex20230116/RYw1_java_coding_exercises/target/surefire 2023-01-17T10-10-41_687-jvmRun1 surefire4783370367213375230tmp surefire_04666683819728706770tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/Users/raymond/techReturners/week1-ex20230116/ori_java_coding_exercises/target/test-classes:/Users/raymond/techReturners/week1-ex20230116/ori_java_coding_exercises/target/classes:/Users/raymond/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.0/junit-jupiter-engine-5.9.0.jar:/Users/raymond/.m2/repository/org/junit/platform/junit-platform-engine/1.9.0/junit-platform-engine-1.9.0.jar:/Users/raymond/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/raymond/.m2/repository/org/junit/platform/junit-platform-commons/1.9.0/junit-platform-commons-1.9.0.jar:/Users/raymond/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.0/junit-jupiter-api-5.9.0.jar:/Users/raymond/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:"/>
+    <property name="surefire.test.class.path" value="/Users/raymond/techReturners/week1-ex20230116/RYw1_java_coding_exercises/target/test-classes:/Users/raymond/techReturners/week1-ex20230116/RYw1_java_coding_exercises/target/classes:/Users/raymond/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.0/junit-jupiter-engine-5.9.0.jar:/Users/raymond/.m2/repository/org/junit/platform/junit-platform-engine/1.9.0/junit-platform-engine-1.9.0.jar:/Users/raymond/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/raymond/.m2/repository/org/junit/platform/junit-platform-commons/1.9.0/junit-platform-commons-1.9.0.jar:/Users/raymond/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.0/junit-jupiter-api-5.9.0.jar:/Users/raymond/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/raymond"/>
     <property name="user.language" value="en"/>
@@ -23,12 +23,12 @@
     <property name="java.version.date" value="2022-10-18"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-17.0.5.jdk/Contents/Home"/>
     <property name="file.separator" value="/"/>
-    <property name="basedir" value="/Users/raymond/techReturners/week1-ex20230116/ori_java_coding_exercises"/>
+    <property name="basedir" value="/Users/raymond/techReturners/week1-ex20230116/RYw1_java_coding_exercises"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/Users/raymond/techReturners/week1-ex20230116/ori_java_coding_exercises/target/surefire/surefirebooter1928766385096632656.jar"/>
+    <property name="surefire.real.class.path" value="/Users/raymond/techReturners/week1-ex20230116/RYw1_java_coding_exercises/target/surefire/surefirebooter14640879617416137360.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="17.0.5+9-LTS-191"/>
@@ -42,7 +42,7 @@
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="/var/folders/39/20wr3d0j5f97vm8h0v9q6wqc0000gn/T/"/>
     <property name="java.version" value="17.0.5"/>
-    <property name="user.dir" value="/Users/raymond/techReturners/week1-ex20230116/ori_java_coding_exercises"/>
+    <property name="user.dir" value="/Users/raymond/techReturners/week1-ex20230116/RYw1_java_coding_exercises"/>
     <property name="os.arch" value="aarch64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="native.encoding" value="UTF-8"/>
