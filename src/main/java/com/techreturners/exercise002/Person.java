@@ -6,11 +6,11 @@ public class Person {
     private String city;
     private int age;
 
-    public Person(String fn, String ln, String c, int a) {
-        this.firstName = fn;
-        this.lastName = ln;
-        this.city = c;
-        this.age = a;
+    public Person(String firstName, String lastName, String city, int age) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.city = city;
+        this.age = age;
     }
 
     public String getFirstName() {
