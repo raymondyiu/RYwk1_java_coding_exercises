@@ -18,13 +18,11 @@ public class Exercise003 {
 
     int getIceCreamCode(String iceCreamFlavour) {
 
-        int index = favourList.indexOf(iceCreamFlavour);
-        return (index);
+        return favourList.indexOf(iceCreamFlavour);
     }
 
     String[] iceCreamFlavours() {
-        String[] ret = favourList.toArray(String[]::new);
-        return ret;
+        return favourList.toArray(String[]::new);
     }
 
 }

@@ -30,11 +30,8 @@ public class Exercise001 {
 
     public String reverse(String sentence) {
 
-        String rev = "";
-        for (int i = sentence.length() - 1; i >= 0; i--) {
-            rev = rev + Character.toString(sentence.charAt(i));
-        }
-        return rev;
+        StringBuilder ret = new StringBuilder(sentence);
+        return (ret.reverse()).toString();
     }
 
     public int countLinuxUsers(List<User> users) {

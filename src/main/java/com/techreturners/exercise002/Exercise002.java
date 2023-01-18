@@ -2,6 +2,8 @@ package com.techreturners.exercise002;
 
 public class Exercise002 {
 
+    private int ADULT_AGE = 18;
+
     public boolean isFromManchester(Person p) {
 
         return (p.getCity().equals("Manchester"));
@@ -9,11 +11,6 @@ public class Exercise002 {
 
     public boolean canWatchFilm(Person p) {
 
-        if (p.getAge() >= 18) {
-            return true;
-        } else {
-            return false;
-        }
+        return (p.getAge() >= ADULT_AGE);
     }
-
 }
